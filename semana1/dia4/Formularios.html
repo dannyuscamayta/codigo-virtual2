@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <label for="inputNombre">Nombre completo</label>
+                </td>
+                <td>
+                    <input type="text" id="inputNombre" placeholder="Ingrese nombre completo" required/>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="edad">Edad</label>
+                </td>
+                <td>
+                    <input type="number" id="edad" placeholder="Ingrese su edad">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="fechaDeNacimiento">Fecha de nacimiento</label>
+                </td>
+                <td>
+                    <input type="date" id="fechaDeNacimiento" value="2020-09-03"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="inputColor">Color</label>
+                </td>
+                <td>
+                    <input type="color" id="inputColor">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Genero</label>
+                </td>
+                <td>
+                    <label for="inputRadioM">Masculino</label>
+                    <input type="radio" id="inputRadioM" name="genero"/>
+
+                    <label for="inputRadioF">Femenino</label>
+                    <input type="radio" id="inputRadioF" name="genero"/>
+
+                    <label for="inputRadioO">Otro</label>
+                    <input type="radio" id="inputRadioO" name="genero"/>
+                </td>
+            </tr>
+
+            <!-- check box -->
+
+            <tr>
+                <td>
+                    <label>Idiomas</label>
+                </td>
+                <td>
+                    <label for="checkIngles">Ingles</label>
+                    <input type="checkbox" id="checkIngles" checked/>
+
+                    <label for="checkEspañol">Español</label>
+                    <input type="checkbox" id="checkEspañol"/>
+
+                    <label for="checkPortugues">Portugues</label>
+                    <input type="checkbox" id="checkPortugues"/>
+                </td>
+            </tr>
+            <!-- enviar email -->
+            <tr>
+                <td>
+                    <label for="inputEmail">E-mail:</label>
+                </td>
+                <td>
+                    <input type="email" value="@gmail.com" placeholder="ingrese su E-mail" id="inputEmail"/>
+                </td>
+            </tr>
+            <!-- contraseña -->
+            <tr>
+                <td>
+                    <label for="inputPassword">Password</label>
+                </td>
+                <td>
+                    <input type="password" id="inputPassword"/>
+                </td>
+            </tr>
+
+            <!-- comentarios -->
+            <tr>
+                <td>
+                    <label for="txtAreaComentario">Comentarios</label>
+                </td>
+                <td>
+                    <textarea id="txtAreaComentario" cols="20" rows="4"></textarea>
+                </td>
+            </tr>
+
+            <!-- seleccionar -->
+
+            <tr>
+                <td>
+                    <label for="slcDepartamentos">Seleccione su departamentos</label>
+                </td>
+                <td>
+                    <select  id="slcDepartamentos">
+                        <option>Seleccione departamento</option>
+                        <option>Arequipa</option>
+                        <option>Lima</option>
+                        <option></option>Tacna</option>
+                    </select>
+                </td>
+            </tr>
+
+            <!-- subir archivo -->
+            <tr>
+                <td>
+                    <label for="inputFileSubirArchivo">Subir archivo</label>
+                </td>
+                <td>
+                    <input type="file" id="inputFileSubirArchivo">
+                </td>
+            </tr>
+            
+            <!-- PARA ENVIAR  -->
+            <tr>
+                <td>
+                    <label for="">Acciones</label>
+                </td>
+                <td>
+                    <input type="submit" value="Registrarme">
+                    <input type="reset" value="Limpiar formulario"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Tablas</title>
+</head>
+<body>
+
+    <header>
+        <h1>Tablas</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Configuraciones de tablas</h2>
+            <table 
+            border="1"
+            bgColor="#056674"
+            background="https://www.google.com/url?sa=i&url=https%3A%2F%2Fed.team%2Fblog%2Fintroduccion-los-hooks-de-react&psig=AOvVaw0Znn3PvJ27_nP6Ld1axMJ4&ust=1599262653425000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNif6eaTzusCFQAAAAAdAAAAABAD"
+            bordercolor="#ffffff"
+            cellpadding="30"
+            width="600"
+            height="300"
+            >
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td>Daniel</td>
+                        <td>Uscamayta</td>
+                        <td>34 años</td>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </section>
+
+
+        <section>
+            <h2>Rowspan y el Colspan</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duracion</th>
+                        <th>Profesor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Algoritmos</td>
+                        <td colspan="2"><center>3 meses</center></td>                        
+                    </tr>
+                    <tr>
+                        <td>1 mes</td>
+                        <td>Jorge Garnica</td>
+                    </tr>
+                    <tr>
+                        <td>1 dia</td>
+                        <td>Mi profe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

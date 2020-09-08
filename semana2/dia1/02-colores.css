@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/*la etiqueta body no necesita una clase por que no hay dos bodys en un html*/
+body {
+    background-color: #444;
+    font-family: "poppins", sans-serif;
+    color: #eee;
+}
+
+.color-rojo {
+    color: red;
+}
+
+.color-naranja {
+    color: orange;
+}
+
+.color-amarillo {
+    color: yellow;
+}
+
+/*especificando colores en el sistema hexadesimal*/
+.color-verde-hex {
+    color: #00ff00;
+}
+
+/*especificando colores en el sistema rgb*/
+.color-morado-rgb {
+    color: rgb(255, 0, 255);
+}
+
+/*especificando colores en el sistema rgba con transparencia de alfa*/
+/*alpha: el valor 1 no tiene transparencia*/
+/*alpha: el valor 0 es totalmente transparente*/
+.color-blanco-transparente {
+    /*0.5 esto no es un color plomo sino es un color blanco transparente porque transluce el color negro de fondo*/
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/*estudiar el color hsl porque te sirve para degradados y variaciones de colores*/
+/*todo:color hsl*/
+
+.header__title {
+    text-align: center;
+}
+
